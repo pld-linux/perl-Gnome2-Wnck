@@ -17,7 +17,6 @@ URL:		http://gtk2-perl.sf.net/
 BuildRequires:	libwnck-devel 
 BuildRequires:	perl-Gtk2 >= 1.00
 BuildRequires:	rpm-perlprov >= 4.1-13
-Requires:	perl-Gnome2-common
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -48,7 +47,6 @@ rm -rf $RPM_BUILD_ROOT
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
@@ -59,5 +57,6 @@ rm -rf $RPM_BUILD_ROOT
 %dir %{perl_vendorarch}/Gnome2/Wnck
 %attr(755,root,root) %{perl_vendorarch}/auto/Gnome2/Wnck/*.so
 %{perl_vendorarch}/auto/Gnome2/Wnck/*.bs
+%{perl_vendorarch}/Gnome2/Wnck/Install/*
 %{perl_vendorarch}/Gnome2/*.pm
 %{_mandir}/man3/*
