@@ -3,7 +3,7 @@
 %bcond_with	tests	# perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pnam	Gnome2-Wnck
+%define		pnam	Gnome2-Wnck
 Summary:	Perl bindings for the Window Navigator Construction Kit library
 Summary(pl):	Dowi±zania Perla dla biblioteki Window Navigator Construction Kit
 Name:		perl-Gnome2-Wnck
