@@ -9,7 +9,7 @@ Summary(pl):	Dowi±zania Perla dla biblioteki Window Navigator Construction Kit
 Name:		perl-%{pnam}
 Version:	0.03
 Release:	1
-License:	GPL
+License:	LGPL
 Group:		Development/Languages/Perl
 Source0:	http://dl.sourceforge.net/gtk2-perl/%{pnam}-%{version}.tar.gz
 # Source0-md5:	cc47e4fc533670761e268932fb13b8a3
