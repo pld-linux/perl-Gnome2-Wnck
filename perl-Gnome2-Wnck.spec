@@ -5,7 +5,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pnam	Gnome2-Wnck
 Summary:	Perl bindings for the Window Navigator Construction Kit library
-Summary(pl):	Dowi±zania perla dla biblioteki Window Navigator Construction Kit
+Summary(pl):	Dowi±zania Perla dla biblioteki Window Navigator Construction Kit
 Name:		perl-%{pnam}
 Version:	0.03
 Release:	1
