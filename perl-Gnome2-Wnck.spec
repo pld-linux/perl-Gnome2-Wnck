@@ -15,8 +15,8 @@ Source0:	http://dl.sourceforge.net/gtk2-perl/%{pnam}-%{version}.tar.gz
 # Source0-md5:	af24ae6b8818c2b914cedcba89eae618
 URL:		http://gtk2-perl.sf.net/
 BuildRequires:	libwnck-devel
-BuildRequires:  perl-ExtUtils-Depends >= 0.1
-BuildRequires:  perl-ExtUtils-PkgConfig >= 1.00
+BuildRequires:	perl-ExtUtils-Depends >= 0.1
+BuildRequires:	perl-ExtUtils-PkgConfig >= 1.00
 BuildRequires:	perl-Gtk2 >= 1.00
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
