@@ -13,7 +13,7 @@ License:	LGPL
 Group:		Development/Languages/Perl
 Source0:	http://dl.sourceforge.net/gtk2-perl/%{pnam}-%{version}.tar.gz
 # Source0-md5:	0c716b0147a860f5c8dd38ee1fd3944a
-URL:		http://gtk2-perl.sf.net/
+URL:		http://gtk2-perl.sourceforge.net/
 BuildRequires:	libwnck-devel >= 2.0.0
 BuildRequires:	perl-ExtUtils-Depends >= 0.201
 BuildRequires:	perl-ExtUtils-PkgConfig >= 1.03
@@ -31,9 +31,9 @@ Construction Kit library (libwnck for short) to write tasklists and
 pagers.
 
 %description -l pl
-Modu³ Wnck pozwala programistom perlowym na u¿ywanie biblioteki
-Window Navigator Construction Kit (w skrócie libwnck) do tworzenia
-list okien i prze³±czników obszarów roboczych.
+Modu³ Wnck pozwala programistom perlowym na u¿ywanie biblioteki Window
+Navigator Construction Kit (w skrócie libwnck) do tworzenia list okien
+i prze³±czników obszarów roboczych.
 
 %prep
 %setup -q -n %{pnam}-%{version}
