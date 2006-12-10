@@ -7,12 +7,12 @@
 Summary:	Perl bindings for the Window Navigator Construction Kit library
 Summary(pl):	Dowi±zania Perla dla biblioteki Window Navigator Construction Kit
 Name:		perl-Gnome2-Wnck
-Version:	0.13
+Version:	0.14
 Release:	1
 License:	LGPL
 Group:		Development/Languages/Perl
 Source0:	http://dl.sourceforge.net/gtk2-perl/%{pnam}-%{version}.tar.gz
-# Source0-md5:	078fdd601c07122ec6726e6be0fa92a6
+# Source0-md5:	653d5e6c4a950cc89913b5adceac8bd1
 URL:		http://gtk2-perl.sourceforge.net/
 BuildRequires:	libwnck-devel >= 2.15.92
 BuildRequires:	perl-ExtUtils-Depends >= 0.201
@@ -49,7 +49,7 @@ i prze³±czników obszarów roboczych.
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__make} install \
+%{__make} pure_install \
 	DESTDIR=$RPM_BUILD_ROOT
 
 rm -f $RPM_BUILD_ROOT%{perl_vendorarch}/Gnome2/Wnck/{*,*/*}.pod
@@ -59,7 +59,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc ChangeLog
+%doc ChangeLog NEWS README
 %dir %{perl_vendorarch}/auto/Gnome2/Wnck
 %dir %{perl_vendorarch}/Gnome2/Wnck
 %attr(755,root,root) %{perl_vendorarch}/auto/Gnome2/Wnck/*.so
