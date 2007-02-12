@@ -5,7 +5,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pnam	Gnome2-Wnck
 Summary:	Perl bindings for the Window Navigator Construction Kit library
-Summary(pl):	Dowi±zania Perla dla biblioteki Window Navigator Construction Kit
+Summary(pl.UTF-8):   DowiÄ…zania Perla dla biblioteki Window Navigator Construction Kit
 Name:		perl-Gnome2-Wnck
 Version:	0.14
 Release:	1
@@ -30,10 +30,10 @@ The Wnck module allows a perl developer to use the Window Navigator
 Construction Kit library (libwnck for short) to write tasklists and
 pagers.
 
-%description -l pl
-Modu³ Wnck pozwala programistom perlowym na u¿ywanie biblioteki Window
-Navigator Construction Kit (w skrócie libwnck) do tworzenia list okien
-i prze³±czników obszarów roboczych.
+%description -l pl.UTF-8
+ModuÅ‚ Wnck pozwala programistom perlowym na uÅ¼ywanie biblioteki Window
+Navigator Construction Kit (w skrÃ³cie libwnck) do tworzenia list okien
+i przeÅ‚Ä…cznikÃ³w obszarÃ³w roboczych.
 
 %prep
 %setup -q -n %{pnam}-%{version}
