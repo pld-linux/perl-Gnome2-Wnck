@@ -65,7 +65,6 @@ rm -rf $RPM_BUILD_ROOT
 %dir %{perl_vendorarch}/auto/Gnome2/Wnck
 %dir %{perl_vendorarch}/Gnome2/Wnck
 %attr(755,root,root) %{perl_vendorarch}/auto/Gnome2/Wnck/*.so
-%{perl_vendorarch}/auto/Gnome2/Wnck/*.bs
 %{perl_vendorarch}/Gnome2/Wnck/Install
 %{perl_vendorarch}/Gnome2/Wnck.pm
 %{_mandir}/man3/Gnome2::Wnck*.3pm*
