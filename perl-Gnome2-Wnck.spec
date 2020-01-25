@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_with	tests	# perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pnam	Gnome2-Wnck
 Summary:	Perl bindings for the Window Navigator Construction Kit library
 Summary(pl.UTF-8):	Dowiązania Perla dla biblioteki Window Navigator Construction Kit
